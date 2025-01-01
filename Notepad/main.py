@@ -44,14 +44,12 @@ def SaveFile():
 
 def QuitApp():
     root.destroy()
-
 def cut():
     textarea.event_generate(("<<Cut>>"))
 def copy():
     textarea.event_generate(("<<Copy>>"))
 def paste():
     textarea.event_generate(("<<Paste>>"))
-
 def about():
     showinfo("Notepad", "Notepad by Duttabir")
 
